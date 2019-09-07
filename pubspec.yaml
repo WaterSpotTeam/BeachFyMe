@@ -1,0 +1,34 @@
+name: beachfyme
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: any
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+assets:
+  - assets/images/
+
+
+fonts:
+    - family: .SF NS Text
+      fonts:
+        - asset: assets/fonts/SFNSText.ttf
+    - family: .SF NS Display
+      fonts:
+        - asset: assets/fonts/SFNSDisplay.ttf
+
